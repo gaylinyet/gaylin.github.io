@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;	
+    background-color: #D2E2E0;
+}
+
+/****************
+HEADER 
+****************/
+
+header {
+    background-color: #C9B1A1;
+    color: #334444;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.left, .right {
+    width: 20%;
+}
+
+.middle {
+    width: 60%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    background: blue;
+    text-align: center;    
+}
